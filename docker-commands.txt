@@ -1,0 +1,1 @@
+1. docker inspect <container id> (to inspect docker container)
