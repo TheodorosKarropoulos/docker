@@ -3,5 +3,4 @@
 3. docker exec -it sql1 "bash" (get docker console)
 4. apt-get update
 5. apt-get install net-tools (install net-tools on docker container)
-6. docker inspect <container id> (to inspect docker container)
-7. /opt/mssql-tools/bin/sqlcmd -S <container ip address>,<sql server port> -U SA -P 'sa_password_here' (to connect from outside the container)
+6. /opt/mssql-tools/bin/sqlcmd -S <container ip address>,<sql server port> -U SA -P 'sa_password_here' (to connect from outside the container)
